@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Web first</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+<body>
+<header>
+    <div class="logo">
+        <img src="icons.png/partner.png" alt="logo" class="logo-img">
+        <h1 class="logo-title">Web I</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#service">SERVICE</a></li>
+            <li><a href="instagram://sanay.rr">CONTACT</a></li>
+        </ul>
+    </nav>
+    <button class="btn-cta" onclick="redirInstagram()">Folow Me</button>
+</header>
+<div class="container">
+    <div class="intro">
+        <p class="title">Hi Iam Here!</p>
+        <p class="description">Begginer From Village.</p>
+        <img src="foto/miror.jpg" alt="unknown" class="img-foto">
+    </div>
+</div> 
+<div class="parallax">
+    <div class="tentang">
+        <p class="title">I'm a Rapper</p>
+        <p class="description">Begginer Codingers.</p>
+        <div class="mt-10">
+            <button class="btn-cta" onclick="redirWhatsapp()">Let's Work Together</button>
+
+        </div>
+    </div>
+    <div class="container">
+            <div class="cards" id="service">
+                <div class="card-item">
+                    <img src="icons.png/24-hours.png" alt="icon-1" class="icon">
+                    <p class="card-title">Non-stop Service</p>
+                      <p class="card-description">Non-stop Service When You Need Help</p>
+                </div>
+                <div class="card-item">
+                    <img src="icons.png/hot deal.png" alt="icon-2" class="icon">
+                    <p class="card-title">Cheapest Services</p>
+                      <p class="card-description">Lowest Service Fee</p>
+                </div>
+                <div class="card-item">
+                    <img src="icons.png/rating.png" alt="icon-3" class="icon">
+                    <p class="card-title">--</p>
+                      <p class="card-description">--</p>
+                </div>
+                </div>
+         </div>
+</div>
+<footer>
+    <p class="title">&copy; Web First 2024</p>
+</footer>
+<script>
+    function redirInstagram() {
+        window.location.href = "https://instagram.com/sanayy.r"
+    }
+
+    function redirWhatsapp() {
+        window.location.href = "https://wa.me/+6283114441037"
+    }
+</script>
+</body>
+
+</html>
